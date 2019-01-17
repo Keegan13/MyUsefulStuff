@@ -4,9 +4,8 @@ using System.Reflection;
 
 namespace MyUsefulStuff
 {
-    public static class WebPankakes
+    public  static partial class WebPankakes
     {
-
         /// <summary>
         /// Return MIME type of file
         /// </summary>
@@ -27,3 +26,4 @@ namespace MyUsefulStuff
         }
     }
 }
+
