@@ -12,7 +12,7 @@ namespace MyUsefulStuff
         /// <remarks>
         /// Requires: Microsoft.Win32.Registry.dll
         /// Source: https://www.ryadel.com/en/get-file-content-mime-type-from-extension-asp-net-mvc-core/
-        /// application/octet-stream
+        /// See also: application/octet-stream
         /// </remarks>
         /// <param name="fileNameOrExtension">File full path</param>
         /// <returns>string MIME type of <param name="fileNameOrExtension">File full path</param> </returns>
