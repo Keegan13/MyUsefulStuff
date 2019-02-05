@@ -21,7 +21,7 @@ namespace MyUsefulStuff
             context.Response.Body = new MemoryStream();
             await _next_middleware.Invoke(context);
             var resultStream = context.Response.Body;
-
+            resultStream.Position = 0;
             context.Response.Body = originalBody;
             await resultStream.CopyToAsync(context.Response.Body);
 
